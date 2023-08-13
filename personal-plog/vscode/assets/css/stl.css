@@ -1,0 +1,216 @@
+@import url('main.css');
+
+body {
+    background-color: #45a049a2;
+}
+
+.con{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        display: grid;
+        justify-content: baseline;
+        grid-template-columns: 100px repeat(3, 1fr);
+        grid-template-rows: 100px 100px 1fr;
+        grid-template-areas:
+            "head head head head head head head head"
+            "ls ls ls ls ls ls main main "
+            "foot foot foot foot foot foot foot foot";
+        height:10%;
+        width: 20%;
+        padding: 50px;
+        margin: 10px;
+        background-color: #fbf9f9;
+        border:3px #000 solid;
+        box-shadow: #000;
+    }
+.authorInfo{
+   display: flex;
+   flex-wrap: wrap;
+   display: grid;
+   justify-content: baseline;
+   border: 2px solid rgba(0, 128, 0, 0);
+   grid-template-columns:  repeat(auto-fit,minmax(min(200px,100%),fr));
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+   
+   
+}
+
+#name{
+    color: #ca0d0d;
+    font-size: 10px;
+}
+
+#ccom{
+    color: blueviolet;
+    font-size: 10px;
+}
+#title{
+    font-size: 10px;
+}
+#shb{
+    font-size: 10px;
+}
+
+
+.article{
+    align-items: center;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: burlywood;
+    width: 40%;
+    height: 50%;
+
+}
+
+#Lorem{
+   
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    
+}
+#muscat{
+    border-radius: 0%;
+    height: 40px;
+    width: 40px;
+    border: 2px black solid;
+
+}
+.button {
+    position: absolute;
+    padding: 20px 35px;
+    border: none;
+    color: green;
+    border-radius: 70px;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(10, 9, 9);
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+h3 {
+    font-size:50px;
+    color:rgb(156, 25, 25); 
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+.form1{
+    align-items: center;
+    display: grid;
+        justify-content: baseline;
+        border: 2px solid rgba(0, 128, 0, 0);
+        grid-template-columns: 200px repeat(3, 1fr);
+        grid-template-rows: 100px 200px 1fr;
+        grid-template-areas:
+            "head head head head head head head head"
+            "ls ls ls main main main main main "
+            "foot foot foot foot foot foot foot foot";
+            display: flex;
+            flex-direction: column;
+        height: 80%;
+        width: 70%;
+        padding: 90px;
+        margin: 3px;
+}
+
+input[type=text],
+select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    border-color: #45a049;
+}
+
+select {
+    width: 40%;
+}
+
+.navbar {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+textarea {
+    width: 90%;
+    height: 20%;
+    padding: 12px 20px;
+    box-sizing: 2px solid #ccc;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+
+}
+
+form {
+    opacity: 0.7;
+}
+.footer{
+color: #000;
+background-color: #45a04900;
+}
